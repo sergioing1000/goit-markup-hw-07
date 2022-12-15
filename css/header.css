@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 80px;
+    padding: 0 var(--container-padding);
+}
+.headernav{
+    display: flex;
+    gap: 60px;
+    height: 80px;    
+}
+.headernav__logo,
+.footer__logo{
+    align-self: center;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-1);
+}
+.headernav__nav-bar{
+    display: flex;
+    gap: 80px;    
+    align-self: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-2);
+}
+.headernav__nav-bar-studio a,
+.headernav__nav-bar-studio a,
+.headernav__nav-bar-contacts a
+{
+    text-decoration: none;
+    color: var(--brand-color-2);
+}
+
+.headernav__nav-bar-studio a:hover,
+.headernav__nav-bar-studio a:hover,
+.headernav__nav-bar-contacts a:hover,
+.headernav__nav-bar-studio a:focus,
+.headernav__nav-bar-studio a:focus,
+.headernav__nav-bar-contacts a:focus,
+.nav-bar a.headernav__nav-bar--current {
+    text-decoration: none;
+    color: var(--brand-color-1);
+    border: none;
+    outline: none;
+}
+
+.headernav__nav-bar--current:after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: var(--brand-color-1);
+    border-radius: 2px;
+    top: 20px;
+}
+
+.header__contact-data{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px ;
+    align-items: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-3);
+}
+
+.header__contact-data-email a,
+.footer__email a,
+.header__contact-data-phone a,
+.footer__phone a{
+    text-decoration: none;
+    color: var(--brand-color-3);
+    fill: var(--brand-color-3);
+}
+
+.header__contact-data-email a:hover,
+.header__contact-data-phone a:hover,
+.footer__email a:hover,
+.footer__phone a:hover,
+.header__contact-data-email a:focus,
+.header__contact-data-phone a:focus,
+.footer__email a:focus,
+.footer__phone a:focus{
+    text-decoration: none;
+    color: var(--brand-color-1);
+    outline: none;
+    fill:var(--brand-color-1);
+    cursor: pointer;
+}

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goit-markup-hw-07</title>
+    
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+    <header class="header"> <!-- header -->
+        <nav class="headernav">
+            <p class="headernav__logo">WEB STUDIO</p>
+            <ul class="headernav__nav-bar">
+                <li class="headernav__nav-bar-studio">
+                    <a href="./index.html" target="_self"> Studio </a>
+                </li>
+                <li class="headernav__nav-bar-studio">
+                    <a class="headernav__nav-bar--current" href="./portfolio.html" target="_self"> Portfolio </a>
+                </li>
+                <li class="headernav__nav-bar-contacts">
+                    <a href="./contacts.html" target="_self"> Contacts </a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <ul class="header__contact-data">
+                <li class="header__contact-data-email">
+                    <a href="mailto:info@devstudio.com">
+                        <svg width="16" height="12">
+                            <use href="./images/icons.svg#envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="header__contact-data-phone">
+                    <a href="tel:+1 212-772-4150">
+                        <svg width="10" height="16">
+                            <use href="./images/icons.svg#cell"></use>
+                        </svg>
+                        +1 212-772-4150
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section> <!-- Filter -->
+            <ul class="filter">
+                <li class="filter__item">
+                    <button type="button" class="filter__item--button">All</button>
+                </li>
+                <li class="filter__item">
+                    <button type="button" class="filter__item--button">Web-sites</button>
+                </li>
+                <li class="filter__item">
+                    <button type="button" class="filter__item--button">Apps</button>
+                </li>
+                <li class="filter__item">
+                    <button type="button" class="filter__item--button">Design</button>
+                </li>
+                <li class="filter__item">
+                    <button type="button" class="filter__item--button">Marketing</button>
+                </li>
+            </ul>
+        </section>
+
+        <section class="portfolio">
+            <ul class="portfolio__row">
+                <li class="portfolio__row">
+                    <div class="project__card">
+                        <div class="project__card-image">
+                            <img src="./images/portfolio1.jpg" alt="Technoduck-Web-site" width="370">
+                            <span class="project__card--overlay-text">
+                                Technoduck is a state-of-the-art coronavirus distribution platform.
+                                Companies use this platform for digital espionage and attacks on
+                                competitors' secure servers.
+                            </span>
+                        </div>
+                        <div class="project__card-text">
+                            <p class="project__card-name">Technoduck</p>
+                            <p class="project__card-type">Web-site</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio__row">
+                    <div class="project__card">
+                        <div class="project__card-image">
+                            <img src="./images/portfolio2.jpg" alt="Poster New Orlean vs Golden Star-Design" width="370">
+                            <span class="project__card--overlay-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                consectetur! Pariatur, laudantium dolore possimus rem minima, sit
+                                illo facere error ratione.
+                            </span>
+                        </div>                        
+                        <div class="project__card-text">
+                            <p class="project__card-name">Poster New Orlean vs Golden Star</p>
+                            <p class="project__card-type">Design</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio__row">
+                    <div class="project__card">
+                        <div class="project__card-image">
+                            <img src="./images/portfolio3.jpg" alt="Seafood Restaurant-Apps" width="370">
+                            <span class="project__card--overlay-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                consectetur! Pariatur, laudantium dolore possimus rem minima, sit
+                                illo facere error ratione.
+                            </span>
+                        </div>
+                        <div class="project__card-text">
+                            <p class="project__card-name">Seafood Restaurant</p>
+                            <p class="project__card-type">Apps</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="portfolio__row">
+                <li class="portfolio__row">
+                    <div class="project__card">
+                        <div class="project__card-image">
+                            <img src="./images/portfolio4.jpg" alt="Project Prime-Marketing" width="370">
+                            <span class="project__card--overlay-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                consectetur! Pariatur, laudantium dolore possimus rem minima, sit
+                                illo facere error ratione.
+                            </span>
+                        </div>
+                        <div class="project__card-text">
+                            <p class="project__card-name">Project Prime</p>
+                            <p class="project__card-type">Marketing</p>
+                        </div>
+                    </div>
+                </li>
+        
+                <li class="portfolio__row">
+                    <div class="project__card">
+                        <div class="project__card-image">
+                            <img src="./images/portfolio5.jpg" alt="Project Boxes-Apps" width="370">
+                            <span class="project__card--overlay-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                consectetur! Pariatur, laudantium dolore possimus rem minima, sit
+                                illo facere error ratione.
+                            </span>
+                        </div>
+                        <div class="project__card-text">
+                            <p class="project__card-name">Project Boxes</p>
+                            <p class="project__card-type">Apps</p>                            
+                        </div>
+                    </div>
+                </li>
+        
+                <li class="portfolio__row">
+                    <div class="project__card">
+                        <div class="project__card-image">
+                            <img src="./images/portfolio6.jpg" alt="Inspiration has no Borders-Web-site" width="370">
+                            <span class="project__card--overlay-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                consectetur! Pariatur, laudantium dolore possimus rem minima, sit
+                                illo facere error ratione.
+                            </span>
+                        </div>
+                        <div class="project__card-text">
+                            <p class="project__card-name">Inspiration has no Borders</p>
+                            <p class="project__card-type">Web-site</p>
+                        </div>                     
+                    </div>
+                </li>
+            </ul>
+            <ul class="portfolio__row">
+                <li class="portfolio__row">
+                    <div class="project__card">
+                        <div class="project__card-image">
+                            <img src="./images/portfolio7.jpg" alt="Project Prime-Marketing" width="370">
+                            <span class="project__card--overlay-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                consectetur! Pariatur, laudantium dolore possimus rem minima, sit
+                                illo facere error ratione.
+                            </span>
+                        </div>
+                        <div class="project__card-text">
+                            <p class="project__card-name">Project Prime</p>
+                            <p class="project__card-type">Marketing</p>
+                        </div>                        
+                    </div>
+                </li>
+        
+                <li class="portfolio__row">
+                    <div class="project__card">
+                        <div class="project__card-image">
+                            <img src="./images/portfolio7.jpg" alt="Project Prime-Marketing" width="370">
+                            <span class="project__card--overlay-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                consectetur! Pariatur, laudantium dolore possimus rem minima, sit
+                                illo facere error ratione.
+                            </span>
+                        </div>
+                        <div class="project__card-text">
+                            <p class="project__card-name">Project Boxes</p>
+                            <p class="project__card-type">Apps</p>
+                        </div>                        
+                        
+                    </div>
+                </li>
+        
+                <li class="portfolio__row">
+                    <div class="project__card">
+                        <div class="project__card-image">
+                            <img src="./images/portfolio9.jpg" alt="Inspiration has no Borders-Web-site" width="370">
+                            <span class="project__card--overlay-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                consectetur! Pariatur, laudantium dolore possimus rem minima, sit
+                                illo facere error ratione.
+                            </span>
+                        </div>
+                        <div class="project__card-text">
+                            <p class="project__card-name">Inspiration has no Borders</p>
+                            <p class="project__card-type">Web-site</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer> <!-- Footer -->
+        <ul class="footer">
+            <li>
+                <p class="footer__logo">WEB STUDIO</p>
+                <p class="footer__address">695 Park Ave, New York, NY 10065, United States</p>
+    
+                <ul>
+                    <li class="footer__email">
+                        <a href="mailto:info@devstudio.com">
+                            <svg width="16" height="12">
+                                <use href="./images/icons.svg#envelope"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="footer__phone">
+                        <a href="tel=+1 212-772-4150">
+                            <svg width="10" height="16">
+                                <use href="./images/icons.svg#cell"></use>
+                            </svg>
+                            +1 212-772-4150
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p class="footer-findus">Find us on</p>
+                <ul class="footer-findus-smicons">
+                    <a href="https://instagram.com/" target="_blank">
+                        <li class="footer-smicon">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </li>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <li class="footer-smicon">
+                            <svg width="20" height="18">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </li>
+                    </a>
+                    <a href="https://facebook.com" target="_blank">
+                        <li class="footer-smicon">
+                            <svg width="11" height="20">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </li>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank">
+                        <li class="footer-smicon">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </li>
+                    </a>
+                </ul>
+            </li>
+            <li>
+                <p class="footer-subscribe--title">Subscribe to the newsletter</p>
+                <form class="form-subscribe">
+                    <label>
+                        <input class="form-subs--email" placeholder=" E-mail" type="email" name="email" />
+                    </label>
+                    <button class="form-subcribe--button" type="submit">
+                        <span>Suscribe</span>
+    
+                        <svg class="form-subcribe--icon" width="16" height="15">
+                            <use href="/images/icons.svg#subscribe"></use>
+                        </svg>
+                    </button>
+                </form>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+
+</html>

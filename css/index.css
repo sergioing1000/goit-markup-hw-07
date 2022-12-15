@@ -1,0 +1,30 @@
+@import "minireset.min.css";
+@import "fonts.css";
+@import "header.css";
+@import "banner.css";
+@import "features.css";
+@import "what-we-do.css";
+@import "our-team.css";
+@import 'rcustomers.css';
+@import "footer.css";
+@import "portfolio.css";
+@import "modal.css";
+
+
+:root {
+    
+    --brand-color-1: #2196F3;
+    --brand-color-2: #212121;
+    --brand-color-3: #757575;
+    --brand-color-4: #FFFFFF;
+    --brand-color-5: #F5F4FA;
+    --brand-color-6: #AFB1B8;
+    --brand-color-7: #2F303A;
+    --brand-color-8: #EEEEEE;
+    --container-padding: calc((100% - 1200px) / 2);
+    --var-url: url("");
+}
+
+*{
+    box-sizing: border-box;
+}

@@ -1,0 +1,138 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+    gap: 30px;
+
+    padding: 0 var(--container-padding);
+    padding-top: 60px;
+    
+    background-color: #2F303A;
+    height: 252px;
+}
+.footer__address {
+    width: 231px;
+    color: var(--brand-color-4);
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.footer-findus{
+    text-transform: Uppercase;
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.footer-findus-smicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 16px;
+    padding-bottom: 30px;
+
+}
+.footer-smicon {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    fill: var(--brand-color-4);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-smicon:hover {
+    background-color: var(--brand-color-1);
+    fill: var(--brand-color-4);
+    cursor: pointer;
+}
+
+.form-subscribe{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-subscribe--title {
+    text-transform: Uppercase;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--brand-color-4);
+}
+
+.form-subs--email{
+    width: 300px;
+    height: 50px;
+    background-color: none;
+    background-color: rgba(255, 255, 255,0);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.form-subcribe--button{
+    width: 180px;
+    height: 50px;
+    background: var(--brand-color-1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-color: var(--brand-color-1);
+    border-radius: 4px;
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    
+    letter-spacing: 0.06em;
+
+    color: var(--brand-color-4);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.form-subcribe--icon{
+    fill: var(--brand-color-4);
+}
