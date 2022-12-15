@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+  padding: 0 $container-padding;
+
+  &nav {
+    display: flex;
+    gap: 60px;
+    height: 80px;
+
+    &__logo {
+      align-self: center;
+
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      letter-spacing: 0.03em;
+      color: $brand-color-1;
+    }
+
+    &__nav-bar {
+      display: flex;
+      gap: 80px;
+      align-self: center;
+
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+      color: $brand-color-2;
+
+      &-studio a,
+      &-portfolio a,
+      &-contacts a {
+        text-decoration: none;
+        color: $brand-color-2;
+
+        &:hover,
+        &:focus {
+          color: $brand-color-1;
+          border: none;
+          outline: none;
+        }
+      }
+
+      &--current span {
+        color: $brand-color-1;
+        border: none;
+        outline: none;
+      }
+
+      &--current:after {
+        display: block;
+        content: "";
+        height: 4px;
+        width: 100%;
+        background-color: $brand-color-1;
+        border-radius: 2px;
+        top: 20px;
+      }
+    }
+  }
+
+  &__contact-data {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: $brand-color-3;
+
+    &-email a{
+      text-decoration: none;
+      color: $brand-color-3;
+      fill: $brand-color-3;
+
+      &:hover,
+      &:focus{
+        text-decoration: none;
+        color: $brand-color-1;
+        outline: none;
+        fill: $brand-color-1;
+        cursor: pointer;
+      }
+    }
+    &-phone a {
+      text-decoration: none;
+      color: $brand-color-3;
+      fill: $brand-color-3;      
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        color: $brand-color-1;
+        outline: none;
+        fill: $brand-color-1;
+        cursor: pointer;
+      }
+    }
+  }
+}

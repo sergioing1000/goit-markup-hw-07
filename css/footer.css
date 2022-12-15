@@ -11,6 +11,19 @@
     background-color: #2F303A;
     height: 252px;
 }
+
+.footer__logo {
+    align-self: center;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-1);
+}
+
+
 .footer__address {
     width: 231px;
     color: var(--brand-color-4);
@@ -25,6 +38,25 @@
 
     color: #FFFFFF;
 }
+
+.footer__email a,
+.footer__phone a {
+    text-decoration: none;
+    color: var(--brand-color-3);
+    fill: var(--brand-color-3);
+}
+
+.footer__email a:hover,
+.footer__phone a:hover,
+.footer__email a:focus,
+.footer__phone a:focus {
+    text-decoration: none;
+    color: var(--brand-color-1);
+    outline: none;
+    fill: var(--brand-color-1);
+    cursor: pointer;
+}
+
 .footer-findus{
     text-transform: Uppercase;
 

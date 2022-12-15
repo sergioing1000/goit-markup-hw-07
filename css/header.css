@@ -11,8 +11,7 @@
     gap: 60px;
     height: 80px;    
 }
-.headernav__logo,
-.footer__logo{
+.headernav__logo{
     align-self: center;
 
     font-family: 'Raleway', sans-serif;
@@ -35,7 +34,7 @@
     color: var(--brand-color-2);
 }
 .headernav__nav-bar-studio a,
-.headernav__nav-bar-studio a,
+.headernav__nav-bar-portfolio a,
 .headernav__nav-bar-contacts a
 {
     text-decoration: none;
@@ -43,13 +42,12 @@
 }
 
 .headernav__nav-bar-studio a:hover,
-.headernav__nav-bar-studio a:hover,
+.headernav__nav-bar-portfolio a:hover,
 .headernav__nav-bar-contacts a:hover,
 .headernav__nav-bar-studio a:focus,
-.headernav__nav-bar-studio a:focus,
+.headernav__nav-bar-portfolio a:focus,
 .headernav__nav-bar-contacts a:focus,
-.nav-bar a.headernav__nav-bar--current {
-    text-decoration: none;
+.headernav__nav-bar--current span{
     color: var(--brand-color-1);
     border: none;
     outline: none;
@@ -80,9 +78,7 @@
 }
 
 .header__contact-data-email a,
-.footer__email a,
-.header__contact-data-phone a,
-.footer__phone a{
+.header__contact-data-phone a{
     text-decoration: none;
     color: var(--brand-color-3);
     fill: var(--brand-color-3);
@@ -90,12 +86,8 @@
 
 .header__contact-data-email a:hover,
 .header__contact-data-phone a:hover,
-.footer__email a:hover,
-.footer__phone a:hover,
 .header__contact-data-email a:focus,
-.header__contact-data-phone a:focus,
-.footer__email a:focus,
-.footer__phone a:focus{
+.header__contact-data-phone a:focus{
     text-decoration: none;
     color: var(--brand-color-1);
     outline: none;

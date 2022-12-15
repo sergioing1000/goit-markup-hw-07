@@ -171,42 +171,39 @@
 .modal-form-email-input:hover,
 .modal-form-textarea:hover {
     cursor: pointer;
-    border-color: var(--brand-color-1);
     color: var(--brand-color-1);
     border-width: 3px;
     border-radius: 4px;
 }
-.modal-form-name-input:hover{
+.modal-form-name-input:hover,
+.modal-form-name-input:focus{
+    border-color: var(--brand-color-1);
     background-image: url('../images/person-b.svg');
     transition: 250ms;
     transition-timing-function: cubic-bezier(.21, 1.74, .96, -0.85);
 }
-.modal-form-phone-input:hover{
+.modal-form-phone-input:hover,
+.modal-form-phone-input:focus{
+    border-color: var(--brand-color-1);
     background-image: url('../images/phone-b.svg');
     transition: 250ms;
     transition-timing-function: cubic-bezier(.21, 1.74, .96, -0.85);
 }
-.modal-form-email-input:hover{
+.modal-form-email-input:hover,
+.modal-form-email-input:focus{
+    border-color: var(--brand-color-1);
     background-image: url('../images/email-b.svg');
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(.21, 1.74, .96, -0.85);
+}
+.modal-form-textarea:hover,
+.modal-form-textarea:focus{
+    border-color: var(--brand-color-1);
     transition: 250ms;
     transition-timing-function: cubic-bezier(.21, 1.74, .96, -0.85);
 }
 
-.modal-form-name-input:focus {
-    background-image: url('../images/person-b.svg');
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(.21, 1.74, .96, -0.85);
-}
-.modal-form-phone-input:focus {
-    background-image: url('../images/phone-b.svg');
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(.21, 1.74, .96, -0.85);
-}
-.modal-form-email-input:focus {
-    background-image: url('../images/email-b.svg');
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(.21, 1.74, .96, -0.85);
-}
+
 
 .modal-form-name-input:focus-within,
 .modal-form-phone-input:focus-within,

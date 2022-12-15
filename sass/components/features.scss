@@ -1,0 +1,66 @@
+.features{
+
+  &-pics {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding-top: 53px;
+
+    &__img {
+        background-color: $brand-color-5;
+        width: 270px;
+        display: flex;
+        align-self: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        justify-content: center;
+    }
+  }
+
+  &-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 53px;
+
+    &__item {
+      width: 270px;
+      display: flex;
+      align-self: center;
+      text-align: center;
+
+      &--title {
+        font-family: 'roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $brand-color-2;
+    
+        padding-top: 30px;
+      }
+
+      --desc {
+        text-align: left;
+        padding-top: 10px;
+
+        font-family: 'roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+
+        color: $brand-color-3;
+
+      }
+
+    }
+  }
+
+}

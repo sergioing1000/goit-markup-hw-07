@@ -1,0 +1,44 @@
+.banner {
+  height: 636px;
+  background: $brand-color-1;
+  background: radial-gradient(circle, rgba(34, 149, 243, 0.139) 18%, rgba(37, 33, 243, 0.361) 81%), url("./css/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+
+  &--title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: $brand-color-4;
+    margin: 20px auto;
+    width: 500px;
+    text-align: center;
+  }
+
+  & li {
+       margin: 20px auto;
+  }
+  &__button {
+    padding: 10px 20px;
+    background-color: $brand-color-1;
+    border: none;
+    color: $brand-color-4;
+    font-size: 18px;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: $brand-color-4;
+        color: $brand-color-1;
+        cursor: pointer;
+    }
+  }
+}
