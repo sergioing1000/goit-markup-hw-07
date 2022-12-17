@@ -1,7 +1,5 @@
-
 * {
     box-sizing: border-box;
-
 }
 
 @import 'components/minireset.scss';
@@ -10,10 +8,9 @@
 @import 'components/header.scss';
 @import 'components/banner.scss';
 @import 'components/features.scss';
-@import 'component/what-we-do.scss';
+@import 'components/what-we-do.scss';
 @import 'components/our-team.scss';
 @import 'components/rcustomers.scss';
-@import 'comnponents/footer.scss';
-@import 'comnponents/modal.scss';
-@import 'comnponents/portfolio.scss';
-
+@import 'components/footer.scss';
+@import 'components/modal.scss';
+@import 'components/portfolio.scss';
