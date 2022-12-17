@@ -48,7 +48,7 @@
     display: flex;
 }
 
-.icon-close-modal {
+.modal-icon-close {
     width: 35px;
     height: 35px;
     fill: #000000;
@@ -225,12 +225,12 @@
     color: var(--brand-color-1);
 }
  
-.container-checkbox {
+.modal-form__container-checkbox {
     display: inline-flex;
     align-items: center;
 }
 
-.label-for-checkbox {
+.modal-form__label-for-checkbox {
     
     display: inline-block;
     position: relative;
@@ -243,7 +243,7 @@
     width: 40px;
 }
 
-.custom-checkbox {
+.modal-form__custom-checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -259,7 +259,7 @@
     cursor: pointer;
 }
 
-.custom-checkbox:checked {
+.modal-form__custom-checkbox:checked {
     background: url('../images/check-on.png') no-repeat right 10px top 5px;
 
     background-size: 24px 24px;
@@ -269,21 +269,6 @@
     margin: 0;
     cursor: pointer;
 }
-
-.my-checkbox:hover {
-    box-shadow: 0 0 4px 4px #ccc;
-}
-
-.my-checkbox:active {
-    background-image: url('../images/check-on.png');
-    box-shadow: 0 0 2px 2px #ccc;
-    cursor: pointer;
-}
-
-.my-checkbox:checked:active {
-    background-image: url('../images/check-off.png');
-}
-
 .modal-form-button {
 
     width: 20%;

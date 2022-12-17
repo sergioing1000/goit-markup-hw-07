@@ -18,18 +18,17 @@
 
     color: var(--brand-color-2);
 }
-.regular-customer__boxes {
+.regular-customers__boxes {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     gap: 30px;
-        ;
 
     padding-top: 50px;
     padding-bottom: 94px;    
 }
-.regular-customer__box{
+.regular-customers__box{
     
     width: 170px;
     height: 92px;
@@ -42,7 +41,7 @@
     fill: var(--brand-color-6);
 }
 
-.regular-customer__box:hover {
+.regular-customers__box:hover {
     border-color: var(--brand-color-1);
     fill: var(--brand-color-1);
     cursor: pointer;

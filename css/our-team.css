@@ -1,11 +1,11 @@
-.our-team {
+.ourteam {
   height: 708px;
   background-color: var(--brand-color-5);
 
   display: flex;
   flex-direction: column;
 }
-.our-team__title {
+.ourteam__title {
   padding-top: 94px;
 
   font-family: "Roboto", sans-serif;
@@ -18,14 +18,14 @@
 
   color: var(--brand-color-2);
 }
-.our-team-images {
+.ourteam-images {
   padding-top: 50px;
 
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.our-team-images__item {
+.ourteam-images__item {
   background: #FFFFFF;
     /* material shadow v1 */
   
