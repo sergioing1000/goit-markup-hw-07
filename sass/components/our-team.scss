@@ -33,34 +33,28 @@
     }
   }
 
-  &__name {
+  @mixin our-team_complete ($weigh, $color, $pad) {
+    font-weight: $weigh;
+    color: $color;
+    padding-top: $pad;
+
     font-family: "roboto", sans-serif;
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
+  }
 
-    color: $brand-color-2;
-
-    padding-top: 30px;
+  &__name {
+    @include our-team_complete (500, $brand-color-2, 30px);
   }
 
   &__position {
-    font-family: "roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: $brand-color-3;
-
-    padding-top: 10px;
+    @include our-team_complete (400, $brand-color-3, 10px);
   }
+  
+  
   &__sm-icons {
     display: flex;
     flex-direction: row;

@@ -520,26 +520,26 @@ th {
   border-radius: 0px 0px 4px 4px;
 }
 .ourteam__name {
-  font-family: "roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
   padding-top: 30px;
-}
-.ourteam__position {
   font-family: "roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.ourteam__position {
+  font-weight: 400;
   color: #757575;
   padding-top: 10px;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .ourteam__sm-icons {
   display: flex;
